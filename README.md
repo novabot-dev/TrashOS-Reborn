@@ -26,8 +26,8 @@ That's it. Just run one of those and you're good.
 
 1. Go into the other branch and download `tos.py`
 2. Import that into your `.py` script
-3. Read the documentation (coming soon)
-4. Go to [maintpkg.lovable.app](https://maintpkg.lovable.app) (Vibecoded)
+3. Read the documentation [here](https://tosapi.lovable.app/) (Vibecoded)
+4. Go to [the maintpkg repo](https://maintpkg.lovable.app) (Vibecoded)
 5. Make an account
 6. Upload it
 7. Please don't add any malware
