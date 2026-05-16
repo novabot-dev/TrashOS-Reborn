@@ -1,42 +1,45 @@
 # TrashOS-Reborn
 
-a fake os written in python. not real, just something i wanted to do to learn coding
+A fake OS written in Python. Not real, just something I wanted to do to learn coding.
 
-## what is this?
+## What is this?
 
-it's basically a fun terminal simulator that looks like an os. mess around with it, break stuff, have fun.
+It's basically a fun terminal simulator that looks like an OS. Mess around with it, break stuff, have fun.
 
-## how to run it
+## How to Run It
 
-got two options:
+You have two options:
 
-**with the installer** (the full experience):
+### With the Installer (the full experience)
 ```bash
 python trashoslivecd.py
 ```
 
-**just boot straight up** (skip the installer):
+### Just Boot Straight Up (skip the installer)
 ```bash
 python boot.py
 ```
 
-that's it. just run one of those and you're good.
+That's it. Just run one of those and you're good.
 
-## how to make apps for it
-go into the other branch and download tos.py, import that into your .py script, and read the documentation (coming soon)
-go onto maintpkg.lovable.app (vibecoded)
-make a account
-upload it
-please dont add any malware
+## How to Make Apps for It
 
-## requirements
+1. Go into the other branch and download `tos.py`
+2. Import that into your `.py` script
+3. Read the documentation (coming soon)
+4. Go to [maintpkg.lovable.app](https://maintpkg.lovable.app) (Vibecoded)
+5. Make an account
+6. Upload it
+7. Please don't add any malware
 
-- python 3.x
-- windows, macos, or linux, untested on bsd
-- pyqt6
+## Requirements
 
-## just for fun
+- Python 3.x
+- Windows, macOS, or Linux (untested on BSD)
+- PyQt6
 
-this isn't meant to be anything serious. it's just a cool script to mess around with. if you break it or find weird bugs, i might fix it if you report it
+## Just for Fun
 
-made with love to all you great people
+This isn't meant to be anything serious. It's just a cool script to mess around with. If you break it or find weird bugs, I might fix it if you report it.
+
+Made with love to all you great people.
