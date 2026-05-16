@@ -8,6 +8,11 @@ It's basically a fun terminal simulator that looks like an OS. Mess around with 
 
 ## How to Run It
 
+Download trashloader.py (optional)
+Download boot.py*
+Download calculator.py*
+Download tos.py from here:*
+
 You have two options:
 
 ### With the Installer (the full experience)
@@ -18,6 +23,10 @@ python trashoslivecd.py
 ### Just Boot Straight Up (skip the installer)
 ```bash
 python boot.py
+```
+### OR
+```bash
+python trashloader.py
 ```
 
 That's it. Just run one of those and you're good.
