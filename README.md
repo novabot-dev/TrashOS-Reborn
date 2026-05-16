@@ -8,10 +8,12 @@ It's basically a fun terminal simulator that looks like an OS. Mess around with 
 
 ## How to Run It
 
-Download trashloader.py (optional)
-Download boot.py*
-Download calculator.py*
-Download tos.py from here:*
+- Download trashloader.py (optional)
+- Download boot.py*
+- Download calculator.py*
+- Download tos.py from [here](https://github.com/novabot-dev/tosapi)*
+
+*mandatory
 
 You have two options:
 
