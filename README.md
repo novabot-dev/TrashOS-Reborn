@@ -1,6 +1,7 @@
 # TrashOS-Reborn
 
 A fake OS written in Python. Not real, just something I wanted to do to learn coding.
+# TOSAPI DOES NOT WORK IN 3.0.0+ I AM WORKING ON A FIX
 
 ## What is this?
 
