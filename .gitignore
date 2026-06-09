@@ -1,0 +1,13 @@
+username.txt
+users.json
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

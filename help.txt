@@ -1,0 +1,4 @@
+Help - types commands
+Ver - prints version
+trashfetch - prints sysinfo
+shutdown - shuts down
