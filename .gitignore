@@ -1,6 +1,9 @@
 username.txt
 users.json
 __pycache__/
+tosapps/
+appdata/
+customization/
 *.py[cod]
 .env
 .venv/
