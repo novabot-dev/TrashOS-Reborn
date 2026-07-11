@@ -42,6 +42,8 @@ def login():
     # Placeholder values to prevent crashes
     new_answer_login = ""
     print("------------------------------------------")
+    for username in users_db:
+        print(f" Account: {username}")
     print("Type 1 for login, 2 for sign up, 3 for exit.")
     # User input menu, TUI
     answer_login = input()
