@@ -2,6 +2,21 @@ import time
 import subprocess
 import json
 import sys
+import os
+from pathlib import Path
+
+STATUS_API_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tosapi_status.json")
+
+
+def sync_tosapi_status(root_state=False):
+    payload = {
+        "version": version,
+        "is_root": bool(root_state)
+    }
+    with open(STATUS_API_FILE, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, indent=4)
+
+Path("tosapps").mkdir(exist_ok=True)
 
 version = "v3.0.0"
 f = open("version.json", "w")
@@ -17,6 +32,7 @@ boot_mode = sys.argv[1] if len(sys.argv) > 1 else "normal"
 def set_current_user(username):
     global current_user
     current_user = username
+    # Whoever is forking this, go fuck yourself.
 def post():
     subprocess.run([sys.executable, 'postanimation.py'])
     # Define post def
@@ -118,6 +134,7 @@ def login():
                 # Welcome message using f strings
                 print("------------------------------------------")
                 set_current_user(input_username)
+                sync_tosapi_status(input_username == "root")
                 break
             else:
                 print("Username or password incorrect!")
@@ -138,12 +155,13 @@ def login():
             
             exit()
         
+sync_tosapi_status(False)
 post()
 # Run post script
 print(f"TrashOS RB Kernel {version} - Mode: {boot_mode}")
 # Print kernel version
 login()
-time.sleep(11)
+time.sleep(3)
 subprocess.run([sys.executable, 'bash.py'])
 with open("username.txt", "w") as f:
     f.write(input_username)
